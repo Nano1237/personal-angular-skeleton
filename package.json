@@ -1,0 +1,21 @@
+{
+  "name": "BlueZebra",
+  "version": "1.0.0",
+  "description": "Test_app",
+  "devDependencies": {
+    "grunt-karma": "",
+    "karma-chrome-launcher": "",
+    "karma-jasmine": "",
+    "grunt-ngdocs": "0.2.5",
+    "grunt-sass": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-concat": "0.5.1",
+    "grunt-closure-compiler": "",
+    "canonical-path": "0.0.2",
+    "angular-jsdoc": "^0.3.2",
+    "bower": "^1.3.1",
+    "jsdoc": "^3.3.0-beta2"
+  }
+}

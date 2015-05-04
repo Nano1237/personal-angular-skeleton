@@ -1,0 +1,7 @@
+{
+  "name": "BlueZebra",
+  "private": "true",
+  "devDependencies": {
+    "angular": ""
+  }
+}
