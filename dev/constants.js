@@ -1,2 +1,3 @@
 angular.module('my.constants')
-    .constant('VIEW_FOLDER', 'html/');
+    .constant('VIEW_ROOT', 'html/')
+    .constant('API_ROOT', 'api.php');

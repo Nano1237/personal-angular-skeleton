@@ -5,4 +5,16 @@ angular.module('my.services')
                 return 'Value from Service';
             }
         }
+    ])
+    .service('MyApiService', [
+        '$http',
+        '$q',
+        'API_ROOT',
+        function ($http, $q, API_ROOT) {
+            return function () {
+                var def = $q.defer();
+                $http.get(API_ROOT).success(def.resolve);
+                return def.promise;
+            }
+        }
     ]);
