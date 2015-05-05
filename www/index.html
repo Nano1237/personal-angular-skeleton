@@ -1,15 +1,15 @@
-<?php
-$var = 'Test!';
-?>
 <!DOCTYPE html>
-<html>
+<html ng-app="myApplication">
 <head lang="en">
     <meta charset="UTF-8">
-    <title><?= $var; ?></title>
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
     <script src="app/libs/angular/angular.min.js"></script>
     <script src="app/app.min.js"></script>
 </head>
-<body>
-
+<body ng-controller="MyCtrl">
+{{myVariable}}
 </body>
 </html>

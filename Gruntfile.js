@@ -12,8 +12,8 @@ module.exports = function (grunt) {
      ACHTUNG!! WENN HIER DATEIEN GEÄNDERT WERDEN AUCH UNTEN BEI KARMA!!
      */
     var jsfiles = [
-        'dev/modules/**/index.js',
-        'dev/app.js'
+        'dev/app.js',
+        'dev/**/*.js'
     ];
 
     var sassFiles = {
